@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LineSoftTestTask</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+<string name="user_info_dialog">User info</string>
+  <string name="user_info_title_searching">Searching..</string>
+  <string name="user_info_title_searched">Finished serch</string>  
+  <string name="watched_users">Wathced users</string>  
+  <string name="repo_url_lable">"Url: "</string> 
+   <string name="repo_forked">"Forked "</string> 
+    <string name="repo_not_forked">"Not forked "</string> 
+    <string name="user_name_lb">"User: "</string> 
+    <string name="drawer_top_title_item">Menu</string>  
+</resources>

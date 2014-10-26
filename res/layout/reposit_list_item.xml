@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/stream_item_panding" >
+
+    <TextView
+        android:id="@+id/tvRepositName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="@dimen/dialog_repo_name_panding"
+        android:text="TextView"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvRepoUri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvRepoLbUri"
+        android:layout_alignBottom="@+id/tvRepoLbUri"
+        android:layout_toRightOf="@+id/tvRepoLbUri"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tvRepoLbUri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvRepositName"
+        android:layout_below="@+id/tvRepositName"
+        android:text="@string/repo_url_lable" />
+
+    <TextView
+        android:id="@+id/tvReposForkStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvRepositName"
+        android:layout_alignBottom="@+id/tvRepositName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="TextView" />
+
+</RelativeLayout>
